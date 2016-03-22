@@ -1,72 +1,54 @@
 body {
-  font-size: 16px;
-  color: #fff;
-  background-color: #8FBC8F;
+  background-color: 
   font-family: 'Times New Roman', sans-serif;
 }
 
-/** HEADER **/
 #header-nav {
-  background-color: #F0E68C;
+  background-color: linen;
   border-radius: 0;
   border: 0;
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #006400; /* Food, LLC, dark green */
 }
 
 .navbar-brand {
-  padding-top: 25px;
+  margin: 0;
+  font-size: 2.2em;
+  font-weight: bold;
 }
 
-.navbar-brand h1 {
-  font-family: 'Times New Roman', sans-serif;
-  color: #696969;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
-}
-
-#nav-list {
-  margin-top: 0;
-  margin-bottom: 0;
-  text-align: center;
-  background-color: #F0FFF0;
-}
-#nav-list span {
-  color: #696969;
-  font-size: 1.8em;
-}
-
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}
-/* END HEADER */
-
-/* HOME PAGE */
-
-.naslov {
-  text-align: center;
-  color: #696969;
-}
-
-.container{
-	border: 2px solid #3F0C1F;
-  margin-top: 20px;
-  clear: both;
-}
-
-.naslov-teksta {
-  text-align: center;
-  color: #696969;
-  margin-top: 0;
-  font-size: 1.3em;
-}
-
-.row {
+h2 {
   margin-top: 10px;
+  font-family: Georgia, serif;
 }
-/* END HOME PAGE */
+
+#crta {
+  width: 95%;
+  margin: 5px;
+
+}
+
+#collapsable-nav #nav-list span {
+  font-size: 1.5em;
+}
+
+#collapsable-nav {
+  background-color: #2F4F4F;
+  color: #FAEBD7; /* antique white */
+}
+
+#main-content {
+  border: 1px solid maroon;
+  background-color: #DCDCDC;
+}
+
+#main-content h3 {
+  color: #32CD32;
+}
+
+section {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
